@@ -1,0 +1,32 @@
+{
+  "name": "isartheist.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio: Jornhub",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "startdev": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isArtheist/isArtheist.github.io.git"
+  },
+  "author": "Jorn Blaedel Garbosa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/isArtheist/isArtheist.github.io/issues"
+  },
+  "homepage": "https://github.com/isArtheist/isArtheist.github.io#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0",
+    "nodemon": "^2.0.15"
+  }
+}

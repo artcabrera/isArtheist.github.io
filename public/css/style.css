@@ -4,6 +4,10 @@ body{
     margin: 0;
 }
 
+img {
+    width: 14rem;
+}
+
 .text-color-main{
     color: #FFA31A;
 }
